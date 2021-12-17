@@ -1,6 +1,6 @@
 {% include 'header.html' %}
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('../static/assets/img/post-bg.jpg')">
+        <header class="masthead" style="background-image: url('../static/assets/img/human-bg.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
@@ -23,6 +23,19 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                             {{post_obj.body}}
+                    </div>
+                </div>
+                <div class="row gx-10 gx-lg-8 justify-content-center">
+                    </br>
+
+                    <div class="col-md-12 col-lg-10 col-xl-9 justify-content-center">
+                            <p>Reference: </p>{{post_obj.reference}}
+                    </div>
+
+                    <div class="col-md-12 col-lg-10 col-xl-9 justify-content-center">
+                            <p>Images content retrieved from <a href="https://techspirited.com/what-is-impact-of-technology-on-our-society">
+                                What is the impact of Technology on Our Society? A Critical Analysis.
+                            </a> </p>
                     </div>
                 </div>
             </div>
