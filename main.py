@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 import requests
 from post import Post
 from datetime import datetime
@@ -35,6 +35,16 @@ def show_post(name):
         if post.title == name:
             requested_post = post
     return render_template('post.html', post_obj=requested_post)
+
+
+@app.route('/form-entry', methods=['POST'])
+def receive_data():
+    data = request.form
+    print(data["name"])
+    print(data["email"])
+    print(data["phone"])
+    print(data["message"])
+    return render_template('entry-form.html')
 
 
 if __name__ == '__main__':
