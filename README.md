@@ -1,2 +1,2 @@
-# truc_blog
+# blog-template
  
