@@ -1,4 +1,4 @@
-# Research on Digital Impact Human Brain
+# blog on computer affect human brain
 
 This blog contain several research paper on how digital devices impact children's activities. 
 This is a simple blog website build with Flask, Python, Jinja, HTML and CSS. 
