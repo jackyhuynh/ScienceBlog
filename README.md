@@ -1,4 +1,4 @@
-# How on computer affect human brain
+# Blog on Computer Affect Human Brain
 
 - This blog contain several research paper on how digital devices impact children's activities. 
 - This is a simple blog website build with Flask, Python, Jinja, HTML and CSS. 
