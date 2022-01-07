@@ -1,9 +1,25 @@
-# blog on computer affect human brain
+# How on computer affect human brain
 
-This blog contain several research paper on how digital devices impact children's activities. 
-This is a simple blog website build with Flask, Python, Jinja, HTML and CSS. 
-There is not any advance featured is used in this website, but the material is quite interesting to me.
-<img src="https://github.com/jackyhuynh/science_blog/blob/main/images/science-blog.gif">
+- This blog contain several research paper on how digital devices impact children's activities. 
+- This is a simple blog website build with Flask, Python, Jinja, HTML and CSS. 
+- There is not any advance featured is used in this website, but the material is quite interesting to me.
+- <img src="https://github.com/jackyhuynh/science_blog/blob/main/images/science-blog.gif">
+
+## Structure:
+#### Home Page:
+- Home page contain the blog post
+<img src="https://github.com/jackyhuynh/science_blog/blob/main/images/home.JPG">
+
+#### About Me Page:
+- Simply about me page
+<img src="https://github.com/jackyhuynh/science_blog/blob/main/images/about-me.gif">
+
+#### Blog Page:
+- Simply page blog
+<img src="https://github.com/jackyhuynh/science_blog/blob/main/images/blog.gif">
+
+#### Contact:
+<img src="https://github.com/jackyhuynh/science_blog/blob/main/images/contact.gif">
 
 ## Technology:
 - HTML
